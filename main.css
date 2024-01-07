@@ -5,6 +5,16 @@ h1{
     color: lightblue;
 }
 
+a{
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    font-size: 40px;
+}
+
 body{
 background: rgb(2,0,36);
 background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,0,255,1) 84%, rgba(0,194,255,1) 100%, rgba(0,212,255,1) 100%);
@@ -32,5 +42,4 @@ opacity: 0;
 }
 100% {
 opacity: 1;
-}
 }
