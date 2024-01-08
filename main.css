@@ -9,9 +9,9 @@ a{
     color: white;
     text-align: center;
     font-family: monospace;
-    position: absolute;
+    position: fixed;
     top: 85%;
-    left: 50%;
+    left: 48%;
     font-size: 40px;
 }
 
@@ -49,7 +49,7 @@ opacity: 1;
 
     
     
-    
+
 
     
     
