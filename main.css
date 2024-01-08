@@ -1,6 +1,6 @@
 h1{
     font-family: monospace;
-    font-size: 70px;
+    font-size: 80px;
     text-align: center;
     color: lightblue;
 }
@@ -28,7 +28,7 @@ background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,0,255,1) 84%, rgba
 
 iframe {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     
