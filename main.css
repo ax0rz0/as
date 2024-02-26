@@ -24,6 +24,7 @@ a {
     background-color: #36393e;
     border-radius: 10px;
     text-decoration: none;
+    outline: 1px solid white;
 }
 
 .content {
