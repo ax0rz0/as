@@ -1,27 +1,37 @@
-<link rel="stylesheet" type="text/css" href="main.css" />
+<link rel="stylesheet" type="text/css" href="main.css">
 <link rel="icon" href="animesociety.gif">
-<br>
-<br>
-<br>
-<br>
-  <head><title>Anime Society</title></head>
+<style>
+  .custom-cursor {
+    cursor: url('cursor.png'), auto;
+  }
+
+  @keyframes hoverEffect {
+    0%, 100% {
+      transform: translateY(-5px);
+    }
+    50% {
+      transform: translateY(5px);
+    }
+  }
+
+  h1 {
+    animation: hoverEffect 2s ease-in-out infinite;
+  }
+</style>
+<br><br><br><br>
+<head>
+  <title>Anime Society</title>
+</head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-
-
 
 <h1><strong>Anime Society</strong></h1>
 <br>
 <iframe src="https://canary.discord.com/widget?id=1070651579188920331&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 <h2><a href="https://discord.gg/VSW6DPzRm8" style="text-decoration:none">Join</a></h2>
 
-
-<!--made with love by ax0rz0-->
-<!--this site is open source and can be forked and modified-->
-
-
-
-
-<!--discord embed stuff-->
+<script>
+  document.documentElement.className += " custom-cursor";
+</script>
 
 <title>Anime Society</title>
 <meta content="Anime Society" property="og:title" />
@@ -29,7 +39,6 @@
 <meta content="https://ax0rz0.github.io/as/" property="og:url" />
 <meta content="https://github.com/ax0rz0/as/blob/main/animesociety.gif?raw=true" property="og:image" />
 <meta content="#00AEFF" data-react-helmet="true" name="theme-color" />
-
-
-
-
+<script>
+  document.documentElement.classList.add("custom-cursor");
+</script>
